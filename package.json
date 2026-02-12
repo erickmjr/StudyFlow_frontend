@@ -16,9 +16,28 @@
     "vite": "^7.3.1"
   },
   "dependencies": {
+    "@appletosolutions/reactbits": "^1.0.3",
+    "@chakra-ui/react": "^3.33.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@motionone/types": "^10.17.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "@react-three/rapier": "^2.2.0",
     "@tailwindcss/vite": "^4.1.18",
+    "framer-motion": "^12.34.0",
+    "gl-matrix": "^3.4.4",
+    "gsap": "^3.14.2",
+    "matter-js": "^0.20.0",
+    "meshline": "^3.3.1",
+    "ogl": "^1.0.11",
+    "postprocessing": "^6.38.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "tailwindcss": "^4.1.18"
+    "react-icons": "^5.5.0",
+    "tailwindcss": "^4.1.18",
+    "three": "^0.182.0",
+    "three-stdlib": "^2.36.1"
   }
 }
