@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AntigravityBackground from "../../shared/components/AntigravityBackground";
 
 const LoginPage = () => {
@@ -55,12 +56,12 @@ const LoginPage = () => {
                     </form>
 
                     <div className="mt-6 flex items-center justify-between text-sm text-[var(--sf-300)]">
-                        <a href="#" className="hover:text-[var(--sf-200)] transition">
+                        <Link to="/forgot-password" className="hover:text-[var(--sf-200)] transition">
                             Forgot password?
-                        </a>
-                        <a href="#" className="text-[var(--sf-300)] hover:text-[var(--sf-200)] transition">
+                        </Link>
+                        <Link to="/signup" className="text-[var(--sf-300)] hover:text-[var(--sf-200)] transition">
                             Create account
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
