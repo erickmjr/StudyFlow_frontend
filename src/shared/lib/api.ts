@@ -1,0 +1,10 @@
+const envBaseUrl = import.meta.env.VITE_API_BASE_URL ?? import.meta.env.VITE_API_URL;
+
+const normalizedEnvBaseUrl = typeof envBaseUrl === "string" ? envBaseUrl.trim() : "";
+
+export const API_BASE_URL = (normalizedEnvBaseUrl || "http://localhost:3000/api").replace(/\/$/, "");
+
+export const buildApiUrl = (path: string) => {
+    const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+    return `${API_BASE_URL}${normalizedPath}`;
+};
